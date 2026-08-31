@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Datenschutzerklärung der QB Akademie – Quelle der Bildung UG: DSGVO, BDSG, TDDDG. Hosting IONOS, Kontakt, Rechte, LDI NRW.">
+  <link rel="canonical" href="https://qb-akademie.de/datenschutz.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="Datenschutzerklärung | QB Akademie">
+  <meta property="og:description" content="DSGVO/TDDDG — wie QB Akademie Daten schützt. Hosting IONOS, Rechte, LDI NRW.">
+  <meta property="og:url" content="https://qb-akademie.de/datenschutz.html">
+  <meta property="og:image" content="https://qb-akademie.de/LOGO.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0e3b64" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
+  <link rel="preload" href="fonts/Inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PlusJakartaSans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="manifest" href="manifest.json">
+  <title>Datenschutzerklärung | QB Akademie – Quelle der Bildung</title>
+  <link rel="icon" type="image/jpeg" href="LOGO.jpg">
+  <!-- Lokale Fonts: Inter + Plus Jakarta Sans (kein Google-CDN, kein Drittlandtransfer) -->
+  <style>
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('fonts/Inter.woff2') format('woff2'); }
+    @font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 500 800; font-display: swap; src: url('fonts/PlusJakartaSans.woff2') format('woff2'); }
+  </style>
+  <script>(function(){try{var k='qb-theme';var s=localStorage.getItem(k);var d=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;var t=s?s:(d?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <style>
+    :root {
+      --primary: #0e3b64;
+      --primary-dark: #08233d;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+    }
+    html[data-theme="dark"] {
+      --primary: #38bdf8;
+      --primary-dark: #e2e8f0;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --border: #334155;
+    }
+    html[data-theme="dark"] body { background-color: var(--bg); color: var(--text); }
+    html[data-theme="dark"] header { background: #0f172a; border-color: #334155; }
+    html[data-theme="dark"] .logo-link { color: #e2e8f0; }
+    html[data-theme="dark"] .back-link { color: #7dd3fc; }
+    html[data-theme="dark"] .legal-card { background: #1e293b; border-color: #334155; box-shadow: 0 4px 12px rgba(0,0,0,0.4); }
+    html[data-theme="dark"] h1 { color: #f1f5f9; border-color: #334155; }
+    html[data-theme="dark"] h2 { color: #7dd3fc; }
+    html[data-theme="dark"] a { color: #7dd3fc; }
+    html[data-theme="dark"] footer { background: #020617; }
+    html[data-theme="dark"] .theme-toggle { background: #1e293b; border-color: #334155; color: #e2e8f0; }
+    html[data-theme="dark"] table th { background: #0f172a; color: #e2e8f0; border-color: #334155; }
+    html[data-theme="dark"] table td { border-color: #334155; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 clamp(1rem, 3.5vw, 1.5rem);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 700;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: clamp(1.1rem, 2.5vw, 1.25rem);
+    }
+    .logo-img {
+      height: clamp(38px, 6vw, 48px);
+      border-radius: 6px;
+      object-fit: contain;
+    }
+    .back-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.5rem;
+      white-space: nowrap;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+    .header-actions { display: flex; align-items: center; gap: 0.5rem; }
+    .theme-toggle { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 9999px; border: 1px solid var(--border); background: #ffffff; color: var(--text); font-size: 1.15rem; cursor: pointer; transition: all 0.2s ease; }
+    main {
+      padding: clamp(2rem, 5vw, 3.5rem) 0 clamp(3rem, 6vw, 5rem);
+    }
+    .legal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: clamp(1.5rem, 4vw, 3rem);
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: clamp(1.6rem, 4vw, 2.25rem);
+      color: var(--primary-dark);
+      margin-bottom: 1.25rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.75rem;
+    }
+    h2 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: clamp(1.15rem, 2.5vw, 1.3rem);
+      color: var(--primary);
+      margin: 2rem 0 0.65rem;
+    }
+    p {
+      margin-bottom: 1.15rem;
+      font-size: clamp(0.95rem, 2vw, 0.98rem);
+      word-break: break-word;
+    }
+    ul {
+      margin: 0.5rem 0 1.25rem 1.5rem;
+    }
+    li {
+      margin-bottom: 0.35rem;
+    }
+    a {
+      color: var(--primary);
+    }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.25rem; font-size: 0.9rem; }
+    table th, table td { border: 1px solid var(--border); padding: 0.6rem 0.75rem; text-align: left; }
+    table th { background: #f1f5f9; font-weight: 600; }
+    .hint-box { background: #fffbeb; border: 1px solid #fde68a; border-radius: 12px; padding: 1rem 1.25rem; margin: 1rem 0; font-size: 0.9rem; }
+    footer {
+      background: var(--primary-dark);
+      color: #94a3b8;
+      padding: 2.5rem 0;
+      font-size: 0.875rem;
+      text-align: center;
+    }
+    footer a {
+      color: #cbd5e1;
+      margin: 0 0.5rem;
+      display: inline-block;
+      padding: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="LOGO.jpg" alt="QB Akademie" class="logo-img">
+        <span>QB Akademie</span>
+      </a>
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle" title="Dunkles Design an/aus" aria-label="Dark Mode umschalten">🌙</button>
+        <a href="index.html" class="back-link">&larr; Zurück</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="legal-card">
+        <h1>Datenschutzerklärung</h1>
+        <p style="font-size:0.85rem; color:var(--text-muted);">Stand: 30.08.2026 — Variant B (DSGVO + BDSG + TDDDG). Dies ist die vollständige Fassung. Eine Kurzfassung finden Sie in der Modal-Ansicht auf der Startseite.</p>
+
+        <h2>1. Verantwortlicher</h2>
+        <p>
+          Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:<br>
+          <strong>QB Akademie – Quelle der Bildung UG (haftungsbeschränkt)</strong><br>
+          Bahnhofstraße 1<br>
+          48431 Rheine<br>
+          Deutschland
+        </p>
+        <p>
+          Vertreten durch die Geschäftsführerin: <strong>Nataliia Diulina</strong><br>
+          Telefon: +49 155 63339966<br>
+          Mobil: +49 155 65498305<br>
+          E-Mail: <a href="mailto:info@qb-akademie.de">info@qb-akademie.de</a>
+        </p>
+        <p>
+          <strong>Datenschutzbeauftragter:</strong> Ein Datenschutzbeauftragter ist nach Art.37 DSGVO / §38 BDSG nicht benannt, da die gesetzlichen Voraussetzungen nicht vorliegen (Kerntätigkeit keine umfangreiche regelmäßige Überwachung besonderer Kategorien, weniger als 20 Personen ständig mit automatisierter Verarbeitung beschäftigt). Anfragen zum Datenschutz richten Sie bitte an die oben genannte Anschrift mit Zusatz „Datenschutz“ oder per E-Mail an <a href="mailto:info@qb-akademie.de">info@qb-akademie.de</a>.
+        </p>
+
+        <h2>2. Allgemeine Hinweise zum Datenschutz</h2>
+        <p>
+          Wir schützen Ihre Daten. Wir verarbeiten personenbezogene Daten nur nach DSGVO, BDSG und TDDDG (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, ehemals TTDSG). Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (z.B. Name, Anschrift, Telefon, E-Mail, IP-Adresse).
+        </p>
+        <p>
+          Diese Erklärung informiert Sie nach Art.13 DSGVO über Zwecke, Rechtsgrundlagen, Empfänger, Speicherdauer und Ihre Rechte. Wir treffen angemessene technische und organisatorische Maßnahmen (Art.32 DSGVO) zum Schutz vor Verlust, Manipulation und unbefugtem Zugriff.
+        </p>
+        <p>
+          <strong>Bereitstellungspflicht (Art.13 Abs.2 lit.e):</strong> Die Bereitstellung Ihrer Kontakt-Daten ist weder gesetzlich noch vertraglich vorgeschrieben, aber für die Bearbeitung Ihrer Anfrage erforderlich. Ohne die Angaben können wir Ihre Anfrage nicht beantworten.
+        </p>
+
+        <h2>3. Hosting und Auftragsverarbeitung (Art. 28 DSGVO)</h2>
+        <p>
+          Unsere Website wird bei der <strong>IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Deutschland</strong>, Tel. 0721/1700-1000, gehostet. Serverstandort: Deutschland/EU.
+        </p>
+        <p>
+          IONOS verarbeitet in unserem Auftrag personenbezogene Daten (IP-Adresse, Logfiles s.u.) auf Grundlage eines Auftragsverarbeitungsvertrags (AVV) gemäß Art.28 DSGVO. Rechtsgrundlage für den Hosting-Einsatz ist Art.6 Abs.1 lit.f DSGVO (berechtigtes Interesse an sicherer, stabiler Bereitstellung) i.V.m. §25 Abs.2 Nr.2 TDDDG (technisch notwendig).
+        </p>
+
+        <h2>3a. Google Fonts (lokal gehostet — kein Drittlandtransfer)</h2>
+        <p>
+          Diese Website nutzt Google Fonts <strong>lokal gehostet</strong>. Schriftarten <em>Inter</em> und <em>Plus Jakarta Sans</em> (SIL Open Font License) liegen auf unserem eigenen Server (<code>fonts/Inter.woff2</code>, <code>fonts/PlusJakartaSans.woff2</code>) und werden via <code>@font-face</code> eingebunden. Es findet <strong>kein</strong> Aufruf von <code>fonts.googleapis.com</code> / <code>fonts.gstatic.com</code> und kein Drittlandtransfer in die USA statt.
+        </p>
+        <p>
+          Rechtsgrundlage: Art.6 Abs.1 lit.f DSGVO (berechtigtes Interesse an einheitlicher, barrierefreier Darstellung) i.V.m. §25 Abs.2 Nr.2 TDDDG (technisch notwendig — Darstellung). Keine Einwilligung erforderlich, keine Cookies, keine Übertragung an Google. Stand: Umstellung auf lokales Hosting am 29.08.2026 umgesetzt (Variant B, Option 1).
+        </p>
+
+        <h2>4. Server-Logfiles</h2>
+        <p>
+          Beim Besuch werden automatisch Informationen in Server-Logfiles gespeichert: IP-Adresse, Datum/Uhrzeit, Browsertyp/-version, Betriebssystem, Referrer-URL, aufgerufene Seiten, Provider. Dies dient der Sicherstellung des störungsfreien Betriebs, Fehleranalyse und IT-Sicherheit. Eine Zusammenführung mit anderen Datenquellen erfolgt nicht. Rechtsgrundlage: Art.6 Abs.1 lit.f DSGVO (berechtigtes Interesse).
+        </p>
+        <p>
+          <strong>Speicherdauer:</strong> Logfiles werden maximal 14 Tage gespeichert und danach gelöscht oder anonymisiert, sofern keine längere Aufbewahrung zu Beweiszwecken (z.B. bei Angriffen) erforderlich ist. Widerspruchsrecht nach Art.21 — siehe Ziff. 12.
+        </p>
+
+        <h2>5. Kontakt per E-Mail &amp; Formular</h2>
+        <p>
+          Wenn Sie uns per E-Mail kontaktieren (derzeit kein aktives Formular auf der Website), verarbeiten wir Ihre Angaben ausschließlich zur Bearbeitung (Name, E-Mail, Telefon, Inhalt). Rechtsgrundlage: Art.6 Abs.1 lit.b DSGVO (vorvertraglich/vertraglich) bzw. Art.6 Abs.1 lit.f (berechtigtes Interesse an Bearbeitung).
+        </p>
+        <p>
+          <strong>Speicherdauer:</strong> Bis Ihre Anfrage erledigt ist, danach 6 Monate zur Nachbearbeitung, anschließend Löschung — außer gesetzliche Aufbewahrungspflichten (HGB/AO 6–10 Jahre bei steuerrelevanten Unterlagen).
+        </p>
+
+        <h2>6. WhatsApp</h2>
+        <p>
+          Auf der Website ist eine WhatsApp-Schaltfläche eingebunden (Anbieter: WhatsApp Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland; Mutter: Meta Platforms Inc., 1601 Willow Road, Menlo Park, CA 94025, USA). Beim Anklicken verlassen Sie unseren Verantwortungsbereich — es können Daten (IP-Adresse, Klickzeitpunkt) an WhatsApp/Meta übertragen werden (Drittland USA).
+        </p>
+        <p>
+          Rechtsgrundlage: Art.6 Abs.1 lit.a DSGVO (Einwilligung bei Klick; §25 TDDDG greift für reinen Link nicht, erst bei Speicherung/Zugriff). Ohne Klick keine Übertragung. Weitere Infos: <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank" rel="noopener">WhatsApp Privacy Policy</a>.
+        </p>
+
+        <h2>7. Google Maps</h2>
+        <p>
+          Derzeit wird Google Maps <strong>nicht aktiv</strong> auf der Website geladen (kein iframe in <code>index.html</code>). Sofern künftig eine Karte eingebunden wird (Anbieter: Google Ireland Ltd., Gordon House, Dublin 4, Irland; Mutter Google LLC, USA), gilt: Beim Aufruf werden IP-Adresse etc. an Google übertragen (Drittland USA, s.o.). Einbindung nur nach Ihrer Einwilligung gemäß §25 Abs.1 TDDDG / Art.6 Abs.1 lit.a über Consent-Tool (2-Klick-Lösung geplant).
+        </p>
+
+        <h2>8. Social Media</h2>
+        <p>
+          Links zu Facebook/Instagram (falls vorhanden) sind reine Verlinkungen (kein Plugin). Beim Anklicken verlassen Sie unsere Website — für Verarbeitung auf den Plattformen sind ausschließlich deren Betreiber verantwortlich.
+        </p>
+
+        <h2>9. Cookies und lokale Speicher (TDDDG §25)</h2>
+        <p>
+          Wir unterscheiden technisch notwendige und einwilligungspflichtige Speicherungen.
+        </p>
+        <table>
+          <tr><th>Speicher</th><th>Zweck</th><th>Rechtsgrundlage</th><th>Dauer</th></tr>
+          <tr><td><code>qb-theme</code> (localStorage)</td><td>Speicherung Ihrer Design-Einstellung hell/dunkel</td><td>§25 Abs.2 Nr.2 TDDDG + Art.6 Abs.1 lit.f (technisch notwendig / Komfort, kein Tracking)</td><td>bis 12 Monate oder bis Löschung im Browser</td></tr>
+          <tr><td>Technisch notwendige Cookies</td><td>Betrieb, Sicherheit</td><td>§25 Abs.2 Nr.2 TDDDG + Art.6 Abs.1 lit.f</td><td>Session bis Browser-Schließen</td></tr>
+          <tr><td>Analyse-/Marketing-Cookies</td><td>derzeit keine gesetzt</td><td>§25 Abs.1 TDDDG + Art.6 Abs.1 lit.a (nur nach Einwilligung)</td><td>n.a. — erst nach Consent</td></tr>
+        </table>
+        <p>
+          Technisch notwendige Speicher sind für den Betrieb erforderlich. Analyse-/Marketing-Cookies werden nur nach Ihrer Einwilligung über ein Consent-Tool/Banner gesetzt. Hinweis: Ein Cookie-Consent-Tool wird derzeit eingerichtet — bis dahin werden nur notwendige Speicher verwendet. Widerruf: über Browsereinstellung oder (nach Einführung) über „Cookie-Einstellungen“ in der Fußzeile. Rechtsgrundlage Einwilligung: §25 Abs.1 TDDDG + Art.6 Abs.1 lit.a; Widerruf Art.7 Abs.3 mit Wirkung für Zukunft.
+        </p>
+
+        <h2>10. Google Analytics</h2>
+        <p>
+          Google Analytics wird derzeit <strong>nicht aktiv</strong> eingesetzt (kein <code>gtag</code> im Quellcode). Sofern künftig eingesetzt, nur nach Ihrer Einwilligung gemäß §25 Abs.1 TDDDG / Art.6 Abs.1 lit.a DSGVO über Consent-Tool. Dann: Verarbeitung gekürzter IP, besuchte Seiten, Verweildauer, Browser/OS, Herkunft, mit IP-Anonymisierung, Drittland USA (DPF+SCC). Widerruf jederzeit über Consent-Tool.
+        </p>
+
+        <h2>11. Datensicherheit (Art. 32 DSGVO)</h2>
+        <p>
+          Wir setzen geeignete technische und organisatorische Maßnahmen ein (Zugriffskontrollen, Verschlüsselung, Backups, Updates) und passen sie regelmäßig an. Diese Website nutzt aus Sicherheitsgründen und zum Schutz vertraulicher Inhalte (z.B. Anfragen per E-Mail) eine <strong>SSL-/TLS-Verschlüsselung</strong> (erkennbar an <code>https://</code> und Schloss-Symbol im Browser). Ob die Verbindung verschlüsselt ist, prüfen Sie im Browser.
+        </p>
+
+        <h2>11a. Automatisierte Entscheidungsfindung</h2>
+        <p>
+          Eine automatisierte Entscheidungsfindung einschließlich Profiling gemäß Art.22 DSGVO findet nicht statt.
+        </p>
+
+        <h2>12. Rechte der betroffenen Personen</h2>
+        <p>Sie haben nach der DSGVO insbesondere folgende Rechte:</p>
+        <ul>
+          <li><strong>Recht auf Auskunft</strong> (Art.15 DSGVO)</li>
+          <li><strong>Recht auf Berichtigung</strong> (Art.16)</li>
+          <li><strong>Recht auf Löschung</strong> (Art.17)</li>
+          <li><strong>Recht auf Einschränkung</strong> (Art.18)</li>
+          <li><strong>Recht auf Unterrichtung</strong> (Art.19)</li>
+          <li><strong>Recht auf Datenübertragbarkeit</strong> (Art.20)</li>
+          <li><strong>Recht auf Widerspruch</strong> (Art.21)</li>
+          <li><strong>Recht gegen automatisierte Entscheidung/Profiling</strong> (Art.22)</li>
+          <li><strong>Widerruf der Einwilligung</strong> (Art.7 Abs.3) — jederzeit mit Wirkung für Zukunft, z.B. per E-Mail an <a href="mailto:info@qb-akademie.de">info@qb-akademie.de</a>. Rechtmäßigkeit bis Widerruf bleibt unberührt.</li>
+          <li><strong>Beschwerderecht</strong> (Art.77) — bei einer Datenschutzaufsichtsbehörde</li>
+        </ul>
+        <p>
+          <strong>Zuständige Aufsichtsbehörde NRW:</strong> Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (LDI NRW), Kavalleriestr. 2–4, 40213 Düsseldorf, Tel.: 0211/38424-0, E-Mail: poststelle@ldi.nrw.de, <a href="https://www.ldi.nrw.de" target="_blank" rel="noopener">ldi.nrw.de</a>
+        </p>
+        <p>
+          Pflicht zur Bereitstellung s.o. Ziff.2. Zur Ausübung Ihrer Rechte genügt formlose Mitteilung an den Verantwortlichen (Ziff.1).
+        </p>
+
+        <h2>13. Änderungen dieser Datenschutzerklärung</h2>
+        <p>
+          Wir behalten uns vor, diese Erklärung anzupassen (gesetzliche Änderungen / neue Funktionen). Es gilt die aktuelle auf der Website veröffentlichte Fassung. Stand s.o.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; QB Akademie – Quelle der Bildung UG (haftungsbeschränkt). Alle Rechte vorbehalten.</p>
+      <p style="margin-top: 0.5rem;">
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutzerklärung</a>
+      </p>
+    </div>
+  </footer>
+  <script>
+    (function(){
+      var btn=document.getElementById('themeToggle');
+      var key='qb-theme';
+      function apply(t){
+        document.documentElement.setAttribute('data-theme',t);
+        if(btn) btn.textContent=t==='dark'?'☀️':'🌙';
+        try{localStorage.setItem(key,t);}catch(e){}
+      }
+      var cur=document.documentElement.getAttribute('data-theme')||'light';
+      if(btn) btn.textContent=cur==='dark'?'☀️':'🌙';
+      if(btn) btn.addEventListener('click',function(){
+        var c=document.documentElement.getAttribute('data-theme');
+        apply(c==='dark'?'light':'dark');
+      });
+    })();
+  </script>
+</body>
+</html>

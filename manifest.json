@@ -1,0 +1,9 @@
+{
+  "name": "QB Akademie – Quelle der Bildung",
+  "short_name": "QB Akademie",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0e3b64",
+  "theme_color": "#0e3b64",
+  "icons": [{ "src": "LOGO.jpg", "sizes": "512x512", "type": "image/jpeg" }]
+}

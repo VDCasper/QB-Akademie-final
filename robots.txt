@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qb-akademie.de/sitemap.xml
