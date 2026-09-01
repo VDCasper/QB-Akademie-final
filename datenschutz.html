@@ -24,7 +24,7 @@
     @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('fonts/Inter.woff2') format('woff2'); }
     @font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 500 800; font-display: swap; src: url('fonts/PlusJakartaSans.woff2') format('woff2'); }
   </style>
-  <script>(function(){try{var k='qb-theme';var s=localStorage.getItem(k);var d=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;var t=s?s:(d?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <script>(function(){try{var k='qb-theme';var s=localStorage.getItem(k);var t=s?s:'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <style>
     :root {
       --primary: #0e3b64;
@@ -344,7 +344,7 @@
         if(btn) btn.textContent=t==='dark'?'☀️':'🌙';
         try{localStorage.setItem(key,t);}catch(e){}
       }
-      var cur=document.documentElement.getAttribute('data-theme')||'light';
+      var cur=document.documentElement.getAttribute('data-theme')||'dark';
       if(btn) btn.textContent=cur==='dark'?'☀️':'🌙';
       if(btn) btn.addEventListener('click',function(){
         var c=document.documentElement.getAttribute('data-theme');
